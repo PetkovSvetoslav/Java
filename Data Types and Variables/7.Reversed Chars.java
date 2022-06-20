@@ -1,4 +1,6 @@
+package com.company;
 
+import java.util.Scanner;
 public class P07ReversedChars {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
