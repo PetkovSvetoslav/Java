@@ -1,3 +1,7 @@
+package com.company;
+
+import java.util.Scanner;
+
 public class P08LowerOrUpper {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
