@@ -1,4 +1,12 @@
-            List<Integer> wagons = Arrays.stream(scanner.nextLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());
+            package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+	    List<Integer> wagons = Arrays.stream(scanner.nextLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());
 
 	        int maxCapacity = Integer.parseInt(scanner.nextLine()); 
 	        String command = scanner.nextLine();
@@ -27,3 +35,6 @@
 	        for (int wagon : wagons) {
 	            System.out.print(wagon + " ");
 	        }
+
+    }
+}
